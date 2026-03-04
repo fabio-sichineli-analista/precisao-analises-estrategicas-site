@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "outputDirectory": "di/publicst",
   "installCommand": "npm install",
   "framework": "vite",
     "rewrites": [
