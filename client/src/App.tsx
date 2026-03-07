@@ -8,6 +8,9 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import FAQ from "./pages/FAQ";
+import Blog from "./pages/Blog";
+import History from "./pages/History";
 
 
 function Router() {
@@ -16,7 +19,10 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/servicos" component={Services} />
       <Route path="/sobre" component={About} />
+      <Route path="/historia" component={History} />
       <Route path="/contato" component={Contact} />
+      <Route path="/faq" component={FAQ} />
+      <Route path="/blog" component={Blog} />
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

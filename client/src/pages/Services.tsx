@@ -109,6 +109,9 @@ export default function Services() {
             <Link href="/" className="text-sm font-medium text-foreground hover:text-accent transition">Início</Link>
             <Link href="/servicos" className="text-sm font-medium text-accent border-b-2 border-accent">Serviços</Link>
             <Link href="/sobre" className="text-sm font-medium text-foreground hover:text-accent transition">Sobre</Link>
+            <Link href="/historia" className="text-sm font-medium text-foreground hover:text-accent transition">Nossa História</Link>
+            <Link href="/faq" className="text-sm font-medium text-foreground hover:text-accent transition">FAQ</Link>
+            <Link href="/blog" className="text-sm font-medium text-foreground hover:text-accent transition">Blog</Link>
             <Link href="/contato" className="text-sm font-medium text-foreground hover:text-accent transition">Contato</Link>
           </nav>
         </div>
@@ -321,6 +324,10 @@ export default function Services() {
             <div>
               <h3 className="font-merriweather font-bold text-primary mb-4">PRECISÃO</h3>
               <p className="text-sm text-secondary">Análise técnica especializada em risco, informação e conformidade.</p>
+              <div className="mt-4 pt-4 border-t border-border">
+                <p className="text-xs text-secondary font-semibold mb-2">Fábio N. Sichineli</p>
+                <p className="text-xs text-secondary">Analista Técnico em Risco, Informação e Conformidade</p>
+              </div>
             </div>
             <div>
               <h4 className="font-lato font-semibold text-primary mb-4">Serviços</h4>
@@ -334,12 +341,15 @@ export default function Services() {
               <h4 className="font-lato font-semibold text-primary mb-4">Empresa</h4>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/sobre" className="text-secondary hover:text-accent transition">Sobre</Link></li>
+                <li><Link href="/faq" className="text-secondary hover:text-accent transition">FAQ</Link></li>
+                <li><Link href="/blog" className="text-secondary hover:text-accent transition">Blog</Link></li>
                 <li><Link href="/contato" className="text-secondary hover:text-accent transition">Contato</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="font-lato font-semibold text-primary mb-4">Contato</h4>
               <p className="text-sm text-secondary mb-2">Email: precisao.analitica@gmail.com</p>
+              <p className="text-sm text-secondary mb-4">Telefone: 47 99182-0229</p>
               <p className="text-sm text-secondary">Disponível para análises técnicas sob demanda.</p>
             </div>
           </div>

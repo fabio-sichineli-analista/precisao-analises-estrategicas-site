@@ -13,45 +13,63 @@ interface FAQItem {
 const faqItems: FAQItem[] = [
   {
     id: "1",
-    category: "Serviços",
-    question: "Qual é a diferença entre análise de risco, informação e conformidade?",
-    answer: "Análise de Risco identifica e avalia ameaças potenciais aos seus negócios. Análise de Informação estrutura dados complexos em insights acionáveis. Análise de Conformidade garante que suas operações estejam alinhadas com regulamentações e normas aplicáveis. Cada uma aborda um aspecto diferente da gestão estratégica."
+    category: "Sobre o Projeto",
+    question: "O que é a análise do projeto PRECISÃO Análises Estratégicas?",
+    answer: "É uma avaliação estratégica completa de um projeto de trabalho autônomo digital que utiliza inteligência artificial como ferramenta de apoio. A análise aborda estrutura, viabilidade, pontos fortes, fracos e recomendações de melhorias."
   },
   {
     id: "2",
-    category: "Processo",
-    question: "Como funciona o processo de análise?",
-    answer: "Nosso processo segue 5 etapas: (1) Coleta de Informações - entendemos seu contexto; (2) Análise Técnica - aplicamos metodologias comprovadas; (3) Identificação de Cenários - mapeamos possibilidades; (4) Elaboração de Relatório - documentamos achados; (5) Apresentação e Esclarecimentos - explicamos recomendações. Todo o processo é transparente e colaborativo."
+    category: "Sobre o Projeto",
+    question: "Qual é a nota geral do projeto?",
+    answer: "O projeto recebeu uma nota geral de 7,3/10. Isso significa que possui uma estrutura sólida e profissional, mas ainda precisa validar a viabilidade no mercado através de projetos-piloto."
   },
   {
     id: "3",
-    category: "Processo",
-    question: "Quanto tempo leva uma análise?",
-    answer: "O prazo varia conforme a complexidade. Análises simples levam 5-10 dias úteis. Análises moderadas, 2-3 semanas. Análises complexas podem levar até 4-6 semanas. Fornecemos um cronograma detalhado na proposta inicial para que você saiba exatamente quando esperar os resultados."
+    category: "Sobre o Projeto",
+    question: "O projeto está pronto para começar a operar?",
+    answer: "Sim, a estrutura operacional está completa e pronta. No entanto, recomenda-se validar os processos na prática através de 3-5 projetos-piloto antes de escalar totalmente."
   },
   {
     id: "4",
-    category: "Investimento",
-    question: "Qual é o valor de uma análise?",
-    answer: "Nossos valores são competitivos e baseados na complexidade do projeto. Oferecemos diferentes pacotes: Análise Básica (para pequenas demandas), Análise Padrão (mais comum) e Análise Premium (projetos complexos). Solicitamos um briefing inicial para fornecer uma proposta personalizada e sem compromisso."
+    category: "Pontos Fortes",
+    question: "Quais são os principais pontos fortes do projeto?",
+    answer: "Os principais pontos fortes são: metodologia estruturada, completude operacional com todas as ferramentas necessárias, posicionamento estratégico claro, e aspectos práticos bem definidos como precificação e gestão de tempo."
   },
   {
     id: "5",
-    category: "Aplicações",
-    question: "Posso usar a análise em processos judiciais ou regulatórios?",
-    answer: "Sim. Nossos relatórios são estruturados para serem utilizados em contextos formais, incluindo processos judiciais, auditorias regulatórias e conformidade com órgãos fiscalizadores. Aplicamos rigor técnico e documentação completa para garantir validade e credibilidade dos achados."
+    category: "Pontos Fortes",
+    question: "O projeto tem diferenciação no mercado?",
+    answer: "Sim, o projeto se diferencia por: posicionamento como 'análise estratégica' (não consultoria), uso inteligente de IA como ferramenta de apoio, expertise rara em segurança/direito/perícia, e modelo 100% digital."
   },
   {
     id: "6",
-    category: "Público",
-    question: "Que tipo de empresa pode se beneficiar de nossas análises?",
-    answer: "Empresas de todos os tamanhos podem se beneficiar: startups que precisam validar decisões estratégicas, PMEs que enfrentam riscos operacionais, e grandes corporações que necessitam de análises especializadas. Também trabalhamos com órgãos públicos e instituições financeiras."
+    category: "Desafios",
+    question: "Quais são os principais pontos de atenção?",
+    answer: "Os principais desafios são: complexidade operacional (muitas ferramentas), falta de validação de mercado, ausência de estratégia de captação de clientes, e limitações de escalabilidade pelo modelo baseado em tempo pessoal."
   },
   {
     id: "7",
-    category: "Entrega",
-    question: "Como é entregue o relatório?",
-    answer: "Entregamos um relatório executivo em formato digital (PDF) com: resumo executivo, análise detalhada, cenários identificados, recomendações e apêndices técnicos. Você também recebe uma apresentação verbal onde esclarecemos dúvidas e discutimos próximos passos."
+    category: "Desafios",
+    question: "Como resolver a complexidade operacional?",
+    answer: "Recomenda-se criar um fluxograma visual simplificado de 1 página que mostre quando usar cada ferramenta, consolidar checklists redundantes, e estabelecer uma rotina clara de trabalho."
+  },
+  {
+    id: "8",
+    category: "Próximos Passos",
+    question: "Qual é o próximo passo mais importante?",
+    answer: "O próximo passo mais importante é realizar 3-5 projetos-piloto para validar os processos na prática, testar a precificação, ajustar tempos e coletar feedback real do mercado."
+  },
+  {
+    id: "9",
+    category: "Próximos Passos",
+    question: "Quanto tempo deve levar para validar o projeto?",
+    answer: "Recomenda-se um período de 30-90 dias para as fases de validação, refinamento de posicionamento e estabelecimento de rotina operacional, dependendo da disponibilidade e demanda."
+  },
+  {
+    id: "10",
+    category: "Próximos Passos",
+    question: "Como aumentar a escalabilidade do projeto?",
+    answer: "Para aumentar a escalabilidade, considere: criar templates e relatórios padronizados para situações recorrentes, desenvolver produtos complementares (webinars, cursos), estabelecer parcerias estratégicas, e eventualmente contratar apoio administrativo."
   }
 ];
 
@@ -81,13 +99,9 @@ export default function FAQ() {
             </div>
           </a>
           <nav className="hidden md:flex items-center gap-8">
-            <a href="/" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Início</a>
-            <a href="/servicos" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Serviços</a>
-            <a href="/sobre" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Sobre</a>
-            <a href="/faq" className="text-sm font-medium text-primary border-b-2 border-primary">FAQ</a>
-            <a href="/historia" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Nossa História</a>
-            <a href="/blog" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Blog</a>
-            <a href="/contato" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Contato</a>
+            <a href="/" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Análise</a>
+            <a href="/contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Contato</a>
+            <a href="/faq" className="text-sm font-medium text-primary">FAQ</a>
           </nav>
         </div>
       </header>
@@ -100,7 +114,7 @@ export default function FAQ() {
               Perguntas Frequentes
             </h1>
             <p className="text-xl text-secondary-foreground">
-              Respostas para as dúvidas mais comuns sobre nossos serviços de análise estratégica.
+              Respostas para as dúvidas mais comuns sobre a análise e o projeto.
             </p>
           </div>
         </div>
@@ -173,7 +187,7 @@ export default function FAQ() {
               <p className="text-secondary-foreground mb-4">
                 Entre em contato conosco para esclarecer suas dúvidas específicas.
               </p>
-              <a href="/contato">
+              <a href="/contact">
                 <Button className="bg-primary hover:bg-primary/90 text-white">
                   Enviar Mensagem
                 </Button>

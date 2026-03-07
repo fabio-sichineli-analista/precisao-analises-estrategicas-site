@@ -27,9 +27,6 @@ export default function Home() {
             <Link href="/" className="text-sm font-medium text-foreground hover:text-accent transition">Início</Link>
             <Link href="/servicos" className="text-sm font-medium text-foreground hover:text-accent transition">Serviços</Link>
             <Link href="/sobre" className="text-sm font-medium text-foreground hover:text-accent transition">Sobre</Link>
-            <Link href="/historia" className="text-sm font-medium text-foreground hover:text-accent transition">Nossa História</Link>
-            <Link href="/faq" className="text-sm font-medium text-foreground hover:text-accent transition">FAQ</Link>
-            <Link href="/blog" className="text-sm font-medium text-foreground hover:text-accent transition">Blog</Link>
             <Link href="/contato" className="text-sm font-medium text-foreground hover:text-accent transition">Contato</Link>
           </nav>
         </div>
@@ -64,7 +61,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 md:h-full">
               <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663302599851/4uDQ47bLgxYYaGjbqHrSyV/hero-analysis_c8a743c4.jpg" 
+                src="/images/hero-analysis.jpg" 
                 alt="Análise de dados e risco" 
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />
@@ -250,45 +247,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Story Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-primary/5">
-        <div className="container">
-          <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-12">
-              <p className="text-accent font-lato font-semibold text-sm uppercase tracking-wide mb-2">Nossa Trajetória</p>
-              <h2 className="font-merriweather text-3xl md:text-4xl font-bold text-primary mb-4">
-                Como Precisão Nasceu
-              </h2>
-              <p className="text-lg text-secondary max-w-2xl mx-auto">
-                Uma história de frustração transformada em propósito
-              </p>
-            </div>
-            
-            <div className="space-y-6 mb-8">
-              <p className="text-secondary-foreground leading-relaxed">
-                Ao longo da minha trajetória profissional, presenciei muitas decisões importantes sendo tomadas sem fundamento sólido, por pessoas pouco preparadas e movidas pelo impulso. Essas situações raramente eram assumidas como falhas e, sempre que aconteciam, eu sentia uma profunda frustração: a minha falta de autonomia me incomodava e a sensação de impotência aumentava ao ver os prejuízos causados por escolhas negligentes.
-              </p>
-              
-              <p className="text-secondary-foreground leading-relaxed">
-                Em 2012, nasceu a primeira versão do que hoje chamamos de "Precisão". Naquela época, o foco era outro: uma iniciativa voltada a promover mais segurança às pessoas em situações delicadas e de risco. Com o passar dos anos e a Revolução da Tecnologia da Informação, essa ideia amadureceu e ganhou um novo significado.
-              </p>
-              
-              <p className="text-secondary-foreground leading-relaxed">
-                Hoje, a Precisão se apresenta como uma proposta clara: oferecer suporte qualificado à tomada de decisão, com base em análise criteriosa de informações e cenários. É a evolução natural de uma inquietação que começou em outro contexto e que, ao longo do tempo, encontrou um caminho mais completo e maduro.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <Link href="/historia">
-                <Button variant="outline" className="border-primary text-primary hover:bg-primary/5 gap-2">
-                  Leia a História Completa <ArrowRight className="w-4 h-4" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">
         <div className="container text-center space-y-6">
@@ -313,10 +271,6 @@ export default function Home() {
             <div>
               <h3 className="font-merriweather font-bold text-primary mb-4">PRECISÃO</h3>
               <p className="text-sm text-secondary">Análise técnica especializada em risco, informação e conformidade.</p>
-              <div className="mt-4 pt-4 border-t border-border">
-                <p className="text-xs text-secondary font-semibold mb-2">Fábio N. Sichineli</p>
-                <p className="text-xs text-secondary">Analista Técnico em Risco, Informação e Conformidade</p>
-              </div>
             </div>
             <div>
               <h4 className="font-lato font-semibold text-primary mb-4">Serviços</h4>
@@ -330,15 +284,12 @@ export default function Home() {
               <h4 className="font-lato font-semibold text-primary mb-4">Empresa</h4>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/sobre" className="text-secondary hover:text-accent transition">Sobre</Link></li>
-                <li><Link href="/faq" className="text-secondary hover:text-accent transition">FAQ</Link></li>
-                <li><Link href="/blog" className="text-secondary hover:text-accent transition">Blog</Link></li>
                 <li><Link href="/contato" className="text-secondary hover:text-accent transition">Contato</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="font-lato font-semibold text-primary mb-4">Contato</h4>
               <p className="text-sm text-secondary mb-2">Email: precisao.analitica@gmail.com</p>
-              <p className="text-sm text-secondary mb-4">Telefone: 47 99182-0229</p>
               <p className="text-sm text-secondary">Disponível para análises técnicas sob demanda.</p>
             </div>
           </div>

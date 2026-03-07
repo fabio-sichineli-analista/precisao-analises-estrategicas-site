@@ -9,8 +9,6 @@ import { Link } from "wouter";
  * Foco: Apresentar expertise, formação e diferencial competitivo
  */
 
-const FABIO_AVATAR = "https://d2xsxph8kpxj0f.cloudfront.net/310519663302599851/4uDQ47bLgxYYaGjbqHrSyV/fabio_avatar_professional-VBTCLMChpuK9eQoiHy4qyZ.webp";
-
 export default function About() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -28,9 +26,6 @@ export default function About() {
             <Link href="/" className="text-sm font-medium text-foreground hover:text-accent transition">Início</Link>
             <Link href="/servicos" className="text-sm font-medium text-foreground hover:text-accent transition">Serviços</Link>
             <Link href="/sobre" className="text-sm font-medium text-accent border-b-2 border-accent">Sobre</Link>
-            <Link href="/historia" className="text-sm font-medium text-foreground hover:text-accent transition">Nossa História</Link>
-            <Link href="/faq" className="text-sm font-medium text-foreground hover:text-accent transition">FAQ</Link>
-            <Link href="/blog" className="text-sm font-medium text-foreground hover:text-accent transition">Blog</Link>
             <Link href="/contato" className="text-sm font-medium text-foreground hover:text-accent transition">Contato</Link>
           </nav>
         </div>
@@ -94,54 +89,10 @@ export default function About() {
 
             <div className="relative h-96 md:h-full">
               <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663302599851/4uDQ47bLgxYYaGjbqHrSyV/decision-support_a1f64bec.jpg" 
+                src="/images/decision-support.jpg" 
                 alt="Análise estratégica" 
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />
-            </div>
-          </div>
-
-          {/* Professional Profile Section */}
-          <div className="border-t border-border pt-16">
-            <h2 className="font-merriweather text-3xl md:text-4xl font-bold text-primary mb-12 text-center">
-              O Profissional
-            </h2>
-            <div className="grid md:grid-cols-3 gap-12 items-start">
-              <div className="md:col-span-1 flex justify-center">
-                <img
-                  src={FABIO_AVATAR}
-                  alt="Fábio N. Sichineli"
-                  className="w-64 h-64 rounded-lg shadow-lg border-4 border-accent object-cover"
-                />
-              </div>
-              <div className="md:col-span-2">
-                <h3 className="font-merriweather text-2xl font-bold text-primary mb-2">
-                  Fábio N. Sichineli
-                </h3>
-                <p className="text-accent font-lato font-semibold mb-6 uppercase text-sm tracking-wide">
-                  Analista Técnico em Risco, Informação e Conformidade
-                </p>
-                <p className="text-secondary mb-6 leading-relaxed">
-                  Profissional multidisciplinar com trajetória notável que integra experiência em segurança, direito, tecnologia e educação.
-                </p>
-                <p className="text-secondary mb-6 leading-relaxed">
-                  Mestre em Direito da Sociedade da Informação, com MBA em Política, Estratégia, Defesa e Segurança Pública. Sua formação acadêmica complementa-se com especializações em Direito Militar e Estudos do Poder Nacional.
-                </p>
-                <p className="text-secondary mb-6 leading-relaxed">
-                  Com atuação prática em perícia judicial, investigação forense, inteligência privada e segurança estratégica, domina metodologias de análise técnica complexa. Expertise em Inteligência Artificial generativa, segurança da informação (ISO/IEC 27001) e engenharia de prompts.
-                </p>
-                <p className="text-secondary mb-6 leading-relaxed">
-                  Sua abordagem combina liderança ética, visão estratégica e capacidade de gestão de crises, conectando teoria e prática em diferentes contextos. Fluente em inglês com conhecimentos em francês e espanhol.
-                </p>
-                <div className="flex gap-4 pt-4">
-                  <a
-                    href="mailto:precisao.analitica@gmail.com"
-                    className="px-6 py-2 bg-primary text-primary-foreground rounded hover:bg-primary/90 transition font-semibold text-sm"
-                  >
-                    Entrar em Contato
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -268,7 +219,7 @@ export default function About() {
                 <ul className="space-y-3">
                   <li className="flex gap-3">
                     <span className="text-accent font-bold">✓</span>
-                    <span>Trabalho autônomo digital (ME)</span>
+                    <span>Trabalho autônomo digital (MEI)</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="text-accent font-bold">✓</span>
@@ -335,10 +286,6 @@ export default function About() {
             <div>
               <h3 className="font-merriweather font-bold text-primary mb-4">PRECISÃO</h3>
               <p className="text-sm text-secondary">Análise técnica especializada em risco, informação e conformidade.</p>
-              <div className="mt-4 pt-4 border-t border-border">
-                <p className="text-xs text-secondary font-semibold mb-2">Fábio N. Sichineli</p>
-                <p className="text-xs text-secondary">Analista Técnico em Risco, Informação e Conformidade</p>
-              </div>
             </div>
             <div>
               <h4 className="font-lato font-semibold text-primary mb-4">Serviços</h4>
@@ -352,15 +299,12 @@ export default function About() {
               <h4 className="font-lato font-semibold text-primary mb-4">Empresa</h4>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/sobre" className="text-secondary hover:text-accent transition">Sobre</Link></li>
-                <li><Link href="/faq" className="text-secondary hover:text-accent transition">FAQ</Link></li>
-                <li><Link href="/blog" className="text-secondary hover:text-accent transition">Blog</Link></li>
                 <li><Link href="/contato" className="text-secondary hover:text-accent transition">Contato</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="font-lato font-semibold text-primary mb-4">Contato</h4>
               <p className="text-sm text-secondary mb-2">Email: precisao.analitica@gmail.com</p>
-              <p className="text-sm text-secondary mb-4">Telefone: 47 99182-0229</p>
               <p className="text-sm text-secondary">Disponível para análises técnicas sob demanda.</p>
             </div>
           </div>
