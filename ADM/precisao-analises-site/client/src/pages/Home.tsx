@@ -25,7 +25,7 @@ export default function Home() {
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link href="/" className="text-sm font-medium text-foreground hover:text-accent transition">Início</Link>
-            <Link href="/servicos" className="text-sm font-medium text-foreground hover:text-accent transition">Serviços</Link>
+            <Link href="/Atuação" className="text-sm font-medium text-foreground hover:text-accent transition">Serviços</Link>
             <Link href="/sobre" className="text-sm font-medium text-foreground hover:text-accent transition">Sobre</Link>
             <Link href="/historia" className="text-sm font-medium text-foreground hover:text-accent transition">Nossa História</Link>
             <Link href="/faq" className="text-sm font-medium text-foreground hover:text-accent transition">FAQ</Link>
@@ -41,7 +41,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="space-y-3">
-                <p className="text-accent font-lato font-semibold text-sm uppercase tracking-wide">Análise Técnica Especializada</p>
+                <p className="text-accent font-lato font-semibold text-sm uppercase tracking-wide">Instituto Precisão</p>
                 <h2 className="font-merriweather text-4xl md:text-5xl font-bold text-primary leading-tight">
                   Decisão não é escolha. É construção.
                 </h2>
@@ -79,10 +79,10 @@ export default function Home() {
           <div className="text-center mb-12">
             <p className="text-accent font-lato font-semibold text-sm uppercase tracking-wide mb-2">Especialização</p>
             <h2 className="font-merriweather text-3xl md:text-4xl font-bold text-primary mb-4">
-              Três Pilares de Análise
+              Eixos de Atuação do Instituto
             </h2>
             <p className="text-lg text-secondary max-w-2xl mx-auto">
-              Cada tipo de análise tem objetivo específico e entrega estruturada para apoiar decisões complexas.
+              O Instituto atua na organização e compreensão de cenários complexos por meio de eixos estruturais que sustentam sua abordagem analítica e formativa.
             </p>
           </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-foreground">
-                  Mapeamento de riscos informacionais, jurídicos e operacionais relacionados a processos, tecnologias ou decisões.
+                  Estruturação e compreensão de cenários de risco em contextos informacionais, operacionais e estratégicos.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex gap-2 text-sm">
@@ -128,7 +128,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-foreground">
-                  Avaliação de uso, fluxo e tratamento de informações sensíveis em contextos digitais ou tecnológicos.
+                  Organização e análise de fluxos informacionais, com foco em interpretação, impacto e uso em processos decisórios.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex gap-2 text-sm">
@@ -158,7 +158,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-foreground">
-                  Avaliação de conformidade com normas, processos e regulamentações aplicáveis ao contexto.
+                  Leitura e estruturação de contextos normativos e processuais, com foco em coerência, aderência e implicações práticas.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex gap-2 text-sm">
@@ -195,10 +195,10 @@ export default function Home() {
               <div className="space-y-3">
                 <p className="text-accent font-lato font-semibold text-sm uppercase tracking-wide">Metodologia</p>
                 <h2 className="font-merriweather text-3xl md:text-4xl font-bold text-primary">
-                  Análise Estruturada e Defensável
+                  Estrutura de Pensamento Aplicado
                 </h2>
                 <p className="text-lg text-secondary font-lato leading-relaxed">
-                  Cada análise segue metodologia rigorosa, com separação clara entre fatos, inferências e cenários possíveis.
+                  O Instituto desenvolve estruturas analíticas que permitem separar percepção de realidade, organizar cenários e sustentar decisões com base em critérios claros.
                 </p>
               </div>
 
@@ -242,7 +242,7 @@ export default function Home() {
 
               <Link href="/servicos">
                 <Button className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
-                  Ver Todos os Serviços <ArrowRight className="w-4 h-4" />
+                  Explorar Estrutura <ArrowRight className="w-4 h-4" />
                 </Button>
               </Link>
             </div>
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <p className="text-accent font-lato font-semibold text-sm uppercase tracking-wide mb-2">Nossa Trajetória</p>
               <h2 className="font-merriweather text-3xl md:text-4xl font-bold text-primary mb-4">
-                Como Precisão Nasceu
+                Origem do Instituto
               </h2>
               <p className="text-lg text-secondary max-w-2xl mx-auto">
                 Uma história de frustração transformada em propósito
@@ -293,14 +293,14 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">
         <div className="container text-center space-y-6">
           <h2 className="font-merriweather text-3xl md:text-4xl font-bold">
-            Pronto para Estruturar sua Decisão?
+            Compreender é o primeiro passo para decidir
           </h2>
           <p className="text-lg max-w-2xl mx-auto opacity-90">
-            Entre em contato para discutir seu desafio técnico e como podemos apoiar com análise estruturada.
+            O Instituto Precisão atua na construção de clareza em cenários complexos. Explore, compreenda e aplique.
           </p>
           <Link href="/contato">
             <Button className="bg-accent hover:bg-accent/90 text-primary gap-2">
-              Solicitar Análise <ArrowRight className="w-4 h-4" />
+              Entrar em Contato <ArrowRight className="w-4 h-4" />
             </Button>
           </Link>
         </div>
@@ -321,9 +321,9 @@ export default function Home() {
             <div>
               <h4 className="font-lato font-semibold text-primary mb-4">Serviços</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link href="/servicos" className="text-secondary hover:text-accent transition">Análise de Risco</Link></li>
-                <li><Link href="/servicos" className="text-secondary hover:text-accent transition">Análise de Informação</Link></li>
-                <li><Link href="/servicos" className="text-secondary hover:text-accent transition">Análise de Conformidade</Link></li>
+                <li><Link href="/servicos" className="text-secondary hover:text-accent transition">Risco</Link></li>
+                <li><Link href="/servicos" className="text-secondary hover:text-accent transition">Informação</Link></li>
+                <li><Link href="/servicos" className="text-secondary hover:text-accent transition">Conformidade</Link></li>
               </ul>
             </div>
             <div>
