@@ -43,21 +43,21 @@ export default function Home() {
               <div className="space-y-3">
                 <p className="text-accent font-lato font-semibold text-sm uppercase tracking-wide">Análise Técnica Especializada</p>
                 <h2 className="font-merriweather text-4xl md:text-5xl font-bold text-primary leading-tight">
-                  Apoio à Decisão Estruturado
+                  Decisão não é escolha. É construção.
                 </h2>
                 <p className="text-lg text-secondary font-lato leading-relaxed">
-                  Análise técnica de risco, informação e conformidade para decisões complexas. Relatórios estruturados, defensáveis e orientados para ação.
+                  O Instituto Precisão é uma estrutura dedicada à análise, organização e compreensão de cenários complexos. Atuamos na formação, desenvolvimento e aplicação de pensamento crítico para decisões em contextos de risco, informação e estratégia.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/servicos">
                   <Button className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2 w-full sm:w-auto">
-                    Conheça os Serviços <ArrowRight className="w-4 h-4" />
+                    Conheça o Instituto <ArrowRight className="w-4 h-4" />
                   </Button>
                 </Link>
                 <Link href="/contato">
                   <Button variant="outline" className="border-primary text-primary hover:bg-primary/5 w-full sm:w-auto">
-                    Solicitar Análise
+                    Explorar Aplicações
                   </Button>
                 </Link>
               </div>
